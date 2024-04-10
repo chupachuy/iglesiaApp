@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>Iglesia Eliasista de México</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Iglesia Eliasista de México</ion-card-subtitle>
+      <ion-card-title><h4>Historia</h4></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div class="custom-text" [innerHTML]="pageData?.content?.rendered"></div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
