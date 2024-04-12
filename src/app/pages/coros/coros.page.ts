@@ -32,6 +32,54 @@ export class CorosPage implements OnInit {
     {
       name: 'November Rain',
       path: '../assets/mp3/Guns_N_Roses_-_November_Rain.mp3'
+    },
+    {
+      name: 'Cozzy Coffe Hose',
+      path: '../assets/mp3/cozycoffeehouse.mp3'
+    },
+    {
+      name: 'On Repeat',
+      path: '../assets/mp3/onrepeat.mp3'
+    },
+    {
+      name: 'Unbrekeable Resolve',
+      path: '../assets/mp3/unbreakableresolve.mp3'
+    },
+    {
+      name: 'November Rain',
+      path: '../assets/mp3/Guns_N_Roses_-_November_Rain.mp3'
+    },
+    {
+      name: 'Cozzy Coffe Hose',
+      path: '../assets/mp3/cozycoffeehouse.mp3'
+    },
+    {
+      name: 'On Repeat',
+      path: '../assets/mp3/onrepeat.mp3'
+    },
+    {
+      name: 'Unbrekeable Resolve',
+      path: '../assets/mp3/unbreakableresolve.mp3'
+    },
+    {
+      name: 'November Rain',
+      path: '../assets/mp3/Guns_N_Roses_-_November_Rain.mp3'
+    },
+    {
+      name: 'Cozzy Coffe Hose',
+      path: '../assets/mp3/cozycoffeehouse.mp3'
+    },
+    {
+      name: 'On Repeat',
+      path: '../assets/mp3/onrepeat.mp3'
+    },
+    {
+      name: 'Unbrekeable Resolve',
+      path: '../assets/mp3/unbreakableresolve.mp3'
+    },
+    {
+      name: 'November Rain ultima',
+      path: 'https://iglesiaeliasista.org.mx/wp-content/uploads/2019/05/SantoSantoSanto.mp3'
     }
   ];
 

@@ -1,0 +1,49 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon slot="end" name="grid-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="start" name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-segment scrollable value="1">
+    <ion-segment-button value="1">
+      <ion-label>Recent Movies</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="2">
+      <ion-label>Comming Soon</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="3">
+      <ion-label>Box Oficce</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="4">
+      <ion-label>Tv Shows</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div class="ion-padding">
+    <ion-grid>
+      <ion-col size="3">
+        <ion-badge color="light">Action</ion-badge>
+      </ion-col>
+      <ion-col size="3">
+        <ion-badge color="light">Crime</ion-badge>
+      </ion-col>
+      <ion-col size="3">
+        <ion-badge color="light">Horror</ion-badge>
+      </ion-col>
+      <ion-col size="3">
+        <ion-badge color="light">Drama</ion-badge>
+      </ion-col>
+    </ion-grid>
+  </div>
+  
+</ion-content>

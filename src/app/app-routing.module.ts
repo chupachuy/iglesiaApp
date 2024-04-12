@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'coros',
     loadChildren: () => import('./pages/coros/coros.module').then( m => m.CorosPageModule)
   },
+  {
+    path: 'gallery',
+    loadChildren: () => import('./pages/gallery/gallery.module').then( m => m.GalleryPageModule)
+  },
 ];
 
 @NgModule({
